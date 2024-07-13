@@ -23,9 +23,9 @@ I’m an enthusiastic Machine Learning (ML) and Computer Vision (CV) practitione
 |-----------------------------------------|---------------------------------------------------|
 | **Swara-Detection-using-TensorFlow**   | Swara detection model using TensorFlow.            |
 | **Housing-prices-prediction**          | Predicting housing prices using ML models.         |
-| **SPARK_TASK_1**                        | Unsupervised ML model using SPARK.                |
+| **SPARK_TASK_1**                        | Unsupervised ML model .                |
 | **Menu_country-recognition**            | Recognizing country from menu items.              |
-| **SPARK_TASK_2**                        | Another SPARK-based ML project.                   |
+| **SPARK_TASK_2**                        | Another ML project.                   |
 | **langchain-openai-**                   | Integrating LangChain with OpenAI models.         |
 
 ## Get in Touch:
