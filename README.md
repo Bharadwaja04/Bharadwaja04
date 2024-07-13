@@ -1,4 +1,4 @@
-👋 Welcome to My GitHub Repository!
+#👋 Welcome to My GitHub Repository!
 I’m an enthusiastic Machine Learning (ML) and Computer Vision (CV) practitioner, constantly exploring and creating innovative solutions.
 
 About Me:
