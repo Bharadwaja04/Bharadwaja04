@@ -11,7 +11,7 @@ I’m an enthusiastic Machine Learning (ML) and Computer Vision (CV) practitione
 
 | **Category**          | **Technologies**              |
 |-----------------------|--------------------------------|
-| **Programming**       | Python, R                     |
+| **Programming**       | Python                     |
 | **ML Frameworks**     | TensorFlow, PyTorch, scikit-learn |
 | **CV Tools**          | OpenCV, YOLOv8                |
 | **Geospatial Tools**   | ArcGIS                        |
@@ -27,6 +27,7 @@ I’m an enthusiastic Machine Learning (ML) and Computer Vision (CV) practitione
 | **Menu_country-recognition**            | Recognizing country from menu items.              |
 | **SPARK_TASK_2**                        | Another ML project.                   |
 | **langchain-openai-**                   | Integrating LangChain with OpenAI models.         |
+| **Linear Regression**                   | Linear Regression from scratch(Normal eq,Gradient Descent |
 
 ## Get in Touch:
 
