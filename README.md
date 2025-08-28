@@ -27,7 +27,7 @@ I’m an enthusiastic Machine Learning (ML) and Computer Vision (CV) practitione
 | **Menu_country-recognition**            | Recognizing country from menu items.              |
 | **SPARK_TASK_2**                        | Another ML project.                   |
 | **langchain-openai-**                   | Integrating LangChain with OpenAI models.         |
-| **Linear Regression**                   | Linear Regression from scratch(Normal eq,Gradient Descent |
+| **Linear Regression**                   | Linear Regression from scratch(Normal eq,Gradient Descent) |
 
 ## Get in Touch:
 
