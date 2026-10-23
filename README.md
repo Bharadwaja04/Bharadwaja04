@@ -141,8 +141,6 @@ Capstone that detects swaras in Hindustani classical music with object detection
 
 <img src="https://streak-stats.demolab.com?user=Bharadwaja04&theme=tokyonight&hide_border=true" alt="Contribution streak" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Bharadwaja04&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" />
-
 <img src="https://raw.githubusercontent.com/Bharadwaja04/Bharadwaja04/output/github-snake-dark.svg" alt="Contribution snake" />
 
 </div>
