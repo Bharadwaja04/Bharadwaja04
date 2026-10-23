@@ -1,46 +1,60 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=210&section=header&text=Bharadwaja%20Vadali&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=ML%20%C2%B7%20Computer%20Vision%20%C2%B7%20On-device%20LLMs&descAlignY=58&descSize=20" alt="Bharadwaja Vadali - ML, Computer Vision, On-device LLMs" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=210&section=header&text=Bharadwaja%20Vadali&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=I%20build%20things%20that%20work&descAlignY=58&descSize=22" alt="Bharadwaja Vadali - I build things that work" />
 
 <a href="https://github.com/Bharadwaja04">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1100&color=58A6FF&center=true&vCenter=true&width=760&height=48&lines=Running+an+LLM+%2B+speech+stack+fully+on+a+phone;Teaching+models+to+read+satellite+images;Shipping+full-stack+AI+apps+end+to+end;Always+building+something+new" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1100&color=58A6FF&center=true&vCenter=true&width=780&height=48&lines=Building+CodeMind%3A+a+map+for+AI-written+code;Running+an+LLM+and+voice+stack+fully+on+a+phone;From+idea+to+live+demo%2C+end+to+end;Always+shipping+something+new" alt="Typing animation" />
 </a>
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bharadwaj-v-672820225/)
 [![FinSaarthi](https://img.shields.io/badge/FinSaarthi-Live%20Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://fin-saarthi.vercel.app)
-![Profile views](https://img.shields.io/github/followers/Bharadwaja04?label=Followers&style=for-the-badge&logo=github&color=24292e)
+![Followers](https://img.shields.io/github/followers/Bharadwaja04?label=Followers&style=for-the-badge&logo=github&color=24292e)
 
 </div>
 
 ---
 
-## 🔭 What I'm building right now
+## 👋 About
 
-> **📱 An AI incident-report assistant that runs 100% offline on an Android phone**
-> A local Qwen3-1.7B model, Whisper speech-to-text and Piper text-to-speech all running on a Snapdragon 8 Gen 3 board. You speak, it listens, asks follow-up questions and files a structured report. No cloud, no internet.
+I'm a **builder**. I like taking an idea from a rough sketch to something people can actually use: developer tools, mobile apps, full-stack products and a few experiments along the way. Most of what's below was built end to end, from the first commit to a working demo.
 
-> **🛰️ Satellite-image ML**
-> Flood segmentation with a U-Net for AISEHack 2026, plus 10 m → 5 m super-resolution for Sentinel-2 imagery.
+## 🔨 What I'm building right now
 
-> **💸 FinSaarthi**
-> A cashflow copilot for small businesses: bank SMS in, categorised spending, dashboards and a 7-day forecast out. [It's live.](https://fin-saarthi.vercel.app)
+> **🧭 CodeMind** · *developer tool, in active development*
+> A quiet map that sits next to your editor and shows how the code you're looking at fits into the rest of the project, in plain words, while an AI agent changes it. So you keep your grip on code you didn't write by hand. (Private repo for now, demo on request.)
+
+> **📱 Incident Assistant** · *on-device mobile app*
+> An incident-reporting assistant that runs 100% offline on an Android phone. You speak, it listens, asks follow-ups and files a structured report. No cloud, no internet.
+
+> **🛒 ClaimCheck** · *team project, due mid-November*
+> A shopping recommender that enforces your hard constraints in plain code and only states facts the customer reviews support. Built with a team, tested across 21 pipeline configurations.
 
 ---
 
-## 🚀 Featured projects
+## 🚀 Things I've built
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
+### 🧭 CodeMind
+Python engine plus VS Code extension. It reads the code structure to show who calls what, what a change could reach and how well tests cover it, follows an AI agent from file to file, and explains each piece in one plain line. Works even with no AI configured.
+
+**Stack:** Python · VS Code extension · code analysis
+
+*Private repo for now.*
+
+</td>
+<td width="33%" valign="top">
+
 ### 📱 [Incident Assistant](https://github.com/Bharadwaja04/incident-assistant)
 Voice-driven incident reporting that never leaves the device. Every field is checked against what was actually said, and you can correct it by voice ("change severity to high").
 
-**Stack:** Qwen3-1.7B · llama.cpp · whisper.cpp · sherpa-onnx · React Native
+**Stack:** React Native · llama.cpp · whisper.cpp · sherpa-onnx
 
-**Tested on:** 25 sentences, 6 dialogues, 10 audio clips and 13 shaky-speech scenarios
+**Tested on:** 25 sentences, 6 dialogues, 10 audio clips, 13 shaky-speech cases
 
 </td>
 <td width="33%" valign="top">
@@ -48,58 +62,49 @@ Voice-driven incident reporting that never leaves the device. Every field is che
 ### 💸 [FinSaarthi](https://github.com/Bharadwaja04/FinSaarthi)
 Turns Indian bank SMS alerts into categorised income and expenses, charts and a 7-day cashflow forecast for small businesses.
 
-**Stack:** FastAPI · React · Vite · Recharts · Supabase
+**Stack:** FastAPI · React · Vite · Supabase
 
 **[▶ Live demo](https://fin-saarthi.vercel.app)**
-
-</td>
-<td width="33%" valign="top">
-
-### 🌊 [Flood Segmentation](https://github.com/Bharadwaja04/AISE-Phase-2-Flood_detection)
-AISEHack 2026 (ANRF) entry: pixel-level flood mapping from 6-channel satellite imagery with class-weighted training for the rare flood class.
-
-**Stack:** PyTorch · U-Net (ResNet-34) · mixed precision
 
 </td>
 </tr>
 <tr>
 <td width="33%" valign="top">
 
-### 🛰️ [Satellite Super-Resolution](https://github.com/Bharadwaja04/AI-driven-Satellite-Image-Super-Resolution)
-SRCNN that sharpens 10 m Sentinel-2 images to 5 m, trained on 805 paired VENµS samples.
+### 📝 [Apache Roller + LLMs](https://github.com/Bharadwaja04/Apache-Roller)
+Added admin-toggleable features to a real Java blog server: content clean-up, summaries, hashtags, comment digests and a blog Q&A chatbot, plus refactoring of oversized core classes.
 
-**Result:** about 32 dB PSNR and 0.90 SSIM on validation, ahead of bicubic upsampling
+**Stack:** Java · Maven
+
+</td>
+<td width="33%" valign="top">
+
+### 🌊 [Flood Segmentation](https://github.com/Bharadwaja04/AISE-Phase-2-Flood_detection)
+AISEHack 2026 entry: pixel-level flood mapping from 6-channel satellite imagery with a U-Net and class-weighted training.
+
+**Stack:** PyTorch · U-Net (ResNet-34)
+
+</td>
+<td width="33%" valign="top">
+
+### 🛰️ [Satellite Super-Resolution](https://github.com/Bharadwaja04/AI-driven-Satellite-Image-Super-Resolution)
+Sharpens 10 m Sentinel-2 images to 5 m, about 32 dB PSNR and 0.90 SSIM on validation, ahead of bicubic upsampling.
 
 **Stack:** PyTorch · Sentinel-2
-
-</td>
-<td width="33%" valign="top">
-
-### 📝 [Apache Roller + LLMs](https://github.com/Bharadwaja04/Apache-Roller)
-Added admin-toggleable LLM features to a real Java blog server: content clean-up, summaries, hashtags, comment-theme digests and a blog Q&A chatbot, plus refactoring of oversized core classes.
-
-**Stack:** Java · Maven · LLM APIs
-
-</td>
-<td width="33%" valign="top">
-
-### 🎼 [Swara Detection](https://github.com/Bharadwaja04/Swara-Detection-using-TensorFlow)
-Capstone that detects swaras in Hindustani classical music with object detection, using a dataset we labelled ourselves in Label Studio.
-
-**Stack:** TensorFlow · Label Studio · Python
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>More projects</b></summary>
+<summary><b>More I've built</b></summary>
 
 <br/>
 
 | Project | What it is |
 |:--|:--|
-| [**FeedForward**](https://github.com/Bharadwaja04/AIBoomi) | AI workspace that merges duplicate client feedback into prioritised action lists |
+| [**Swara Detection**](https://github.com/Bharadwaja04/Swara-Detection-using-TensorFlow) | Capstone that detects swaras in Hindustani classical music, on a dataset we labelled ourselves |
+| [**FeedForward**](https://github.com/Bharadwaja04/AIBoomi) | Workspace that merges duplicate client feedback into prioritised action lists |
 | [**TalentScout**](https://github.com/Bharadwaja04/TalentScout-) | Streamlit chat-style hiring assistant that generates technical questions from a candidate's stack |
 | [**TensorTonic Solutions**](https://github.com/Bharadwaja04/TensorTonic-Solutions) | Probability and statistics from scratch: PMFs, t-tests, bootstrap and more |
 | [**Linear Regression**](https://github.com/Bharadwaja04/Linear_Regression) | Normal equation and gradient descent implemented by hand |
@@ -112,7 +117,7 @@ Capstone that detects swaras in Hindustani classical music with object detection
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,java,ts,js,pytorch,tensorflow,sklearn,opencv,fastapi,react,vite,supabase,vercel,git,linux" alt="Tech stack" />
+<img src="https://skillicons.dev/icons?i=py,ts,js,java,react,vite,fastapi,supabase,vercel,vscode,git,linux,pytorch,tensorflow" alt="Tech stack" />
 
 </div>
 
@@ -121,11 +126,11 @@ Capstone that detects swaras in Hindustani classical music with object detection
 
 | Area | Tools |
 |:--|:--|
-| Languages | Python, Java, JavaScript / TypeScript, SQL |
-| ML / DL | PyTorch, TensorFlow, scikit-learn, XGBoost, LightGBM, Optuna |
-| Computer vision | OpenCV, YOLOv8, Roboflow |
-| LLMs | llama.cpp, whisper.cpp, LangChain, OpenAI APIs |
-| Backend / Web | FastAPI, React, Vite, Expo / React Native, Supabase |
+| Languages | Python, TypeScript / JavaScript, Java, SQL |
+| Web & backend | React, Vite, FastAPI, Supabase, Streamlit |
+| Mobile & dev tools | Expo / React Native, VS Code extensions, code analysis |
+| On-device AI | llama.cpp, whisper.cpp, sherpa-onnx |
+| ML | PyTorch, TensorFlow, scikit-learn, XGBoost, LightGBM, Optuna, OpenCV, YOLOv8 |
 | Geospatial | ArcGIS, Sentinel-2 imagery |
 
 </details>
@@ -147,9 +152,9 @@ Capstone that detects swaras in Hindustani classical music with object detection
 
 ---
 
-## 🤝 Let's connect
+## 🤝 Let's build something
 
-I'm open to internships, collaborations and conversations about **ML, computer vision and on-device AI**.
+I'm open to internships, collaborations and good ideas that need someone to build them.
 The fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/bharadwaj-v-672820225/).
 
 <div align="center">
